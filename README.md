@@ -1,4 +1,4 @@
-# Covid-game
+# Run Boris Run
 
 Netlify Status: [![Netlify Status](https://api.netlify.com/api/v1/badges/fc505d8b-809e-4e4c-8ffb-35a33b27325a/deploy-status)](https://app.netlify.com/sites/laughing-brattain-9a3cce/deploys)
 
@@ -6,7 +6,7 @@ Travis Status: [![Build Status](https://travis-ci.com/edmond-b/Covid_Game.svg?br
 
 Play the game [Here](https://run-boris-run.netlify.app/)
 
-## What is Covid-game?
+## What is Run Boris, Run?
 
 Covid-game, a.k.a 'Run Boris, Run!', is a game developed to pass the time in quarantine whilst also practising your social distancing skills (virtually of course!).
 
