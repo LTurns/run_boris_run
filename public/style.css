@@ -1,20 +1,39 @@
 #gameScreen {
-  border: 3px solid black;
-  font-family: 'arcadeclassicregular', Arial, sans-serif;
+  border: 3px solid #000000;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  font-size: 20px;
 }
 
 #borisGame {
-  width: 60%;
-  height: 600px;
+  width: 70%;
+  border-radius: 3%;
+  border: 2px solid black
+
+}
+
+@media only screen and (max-width: 600px) {
+  #borisGame {
+    width: 100%; 
+    /* height: 400px; */
+  }
 }
 
 body {
   background-image: url("https://data.whicdn.com/images/208932206/original.gif");
+  padding-right: 10%;
+  padding-left: 10%;
+
 }
 
-html, body {
-  margin: 0;
-  height: 100%
+.opening{
+  border: solid 2px black;
+  background-color: white;
+  font: white;
+  margin-bottom: 2%;
+  border-radius: 3%;
 }
 
 .button {
@@ -27,8 +46,8 @@ html, body {
 	cursor:pointer;
 	color:#ffffff;
 	font-family: 'arcadeclassicregular', Arial, sans-serif;
-	font-size:28px;
-	font-weight:bold;
+	/* font-size:28px; */
+	/* font-weight:bold; */
 	padding:5px 24px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #cc9f52;
@@ -51,7 +70,7 @@ h1{
 
 p{
   font-family: 'arcadeclassicregular', Arial, sans-serif;
-  font-size: 30px;
+  /* font-size: 30px; */
   margin-top: 2px;
   margin-bottom: 10px;
 }
@@ -72,7 +91,7 @@ p{
   background-color: rgba(255, 255, 255, 0.8);
   border: 1px solid white;
   padding: 20px;
-  font-size: 30px;
+  /* font-size: 30px; */
   text-align: center;
 }
 
@@ -85,11 +104,3 @@ height: 300px;
   width: 50%;
   height: 100px;
 }
-
-
-/* #keyboard {
-  flex: 1;
-  height: 300;
-  width: 1000;
-  resizeMode: "contain"
-} */
