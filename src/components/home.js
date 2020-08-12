@@ -7,6 +7,7 @@ console.log(image)
 
 function Home(){
   return(
+    <div clas="background-container">
     <div className="home">
       <center>
       <div class="row">
@@ -21,6 +22,7 @@ function Home(){
         </div>
       </center>
     </div>
+  </div>
   )
 }
 

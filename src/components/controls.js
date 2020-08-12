@@ -18,7 +18,7 @@ function Controls(){
         <div class="about-images-container">
           <div>
             <center>
-              <div class="grid-item">
+              <div class="grid-item" id="keys">
               <img src={leftKey} id="left_key"></img>
               <p> Use "Left Key" to walk left</p>
               </div>
